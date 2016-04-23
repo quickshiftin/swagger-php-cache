@@ -1,0 +1,22 @@
+{
+    "name": "quickshiftin/swagger-php-cache",
+    "description": "Caching for Swagger-Codgen PHP client libraries",
+    "require": {
+        "phpfastcache/phpfastcache": "^4.3"
+    },
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Nathan Nobbe",
+            "email": "quickshiftin@gmail.com",
+            "homepage": "https://quickshiftin.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Postmates\\": "src/"
+        }   
+    } 
+}
